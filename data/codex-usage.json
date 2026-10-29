@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Australia/Sydney",
-  "updatedAt": "2026-10-29T02:26:01.599Z",
+  "updatedAt": "2026-10-29T22:02:19.303Z",
   "source": {
     "label": "本机 Codex 会话记录",
     "includesCachedInput": true,
@@ -9,27 +9,27 @@
     "accountWide": false
   },
   "coverage": {
-    "from": "2026-09-30",
-    "to": "2026-10-29",
+    "from": "2026-10-01",
+    "to": "2026-10-30",
     "firstObservedEvent": "2026-08-30T23:13:32.200Z",
-    "lastObservedEvent": "2026-10-29T02:25:58.384Z",
+    "lastObservedEvent": "2026-10-29T22:02:10.334Z",
     "currentDayPartial": true,
     "scope": "本机保留的 Codex 活跃与归档会话；含子代理及缓存输入，不代表账号全量、账单或其他 AI 工具。",
     "method": "累计计数增量；相同累计值忽略；精确事件指纹去重；首条与重置仅计 last_token_usage。",
-    "tokenEvents": 102108,
+    "tokenEvents": 103023,
     "duplicateEvents": 1,
-    "repeatedCounters": 6419,
+    "repeatedCounters": 6435,
     "counterResets": 36,
     "initialUnattributedTokens": 0,
     "historicalInitialUnattributedTokens": 188336847,
-    "lastSnapshotInconsistentEvents": 1115,
-    "inconsistentLastWithRepeatedTotal": 1073,
+    "lastSnapshotInconsistentEvents": 1127,
+    "inconsistentLastWithRepeatedTotal": 1085,
     "unresolvedResetEvents": 0,
     "deltaMismatchEvents": 0,
     "invalidEvents": 0,
-    "futureEvents": 16,
-    "sourceFiles": 666,
-    "readFiles": 666,
+    "futureEvents": 8,
+    "sourceFiles": 677,
+    "readFiles": 677,
     "failedFiles": 0,
     "malformedTokenLines": 0,
     "invalidTokenEvents": 0,
@@ -37,15 +37,6 @@
     "completeWithinRetainedFiles": true
   },
   "days": [
-    {
-      "date": "2026-09-30",
-      "input": 0,
-      "cachedInput": 0,
-      "output": 0,
-      "total": 0,
-      "observedEvents": 0,
-      "recorded": false
-    },
     {
       "date": "2026-10-01",
       "input": 0,
@@ -300,11 +291,20 @@
     },
     {
       "date": "2026-10-29",
-      "input": 179557544,
-      "cachedInput": 174675072,
-      "output": 461747,
-      "total": 180019291,
-      "observedEvents": 1051,
+      "input": 353013840,
+      "cachedInput": 343586816,
+      "output": 873976,
+      "total": 353887816,
+      "observedEvents": 1955,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-30",
+      "input": 283741,
+      "cachedInput": 165760,
+      "output": 245,
+      "total": 283986,
+      "observedEvents": 2,
       "recorded": true
     }
   ]
