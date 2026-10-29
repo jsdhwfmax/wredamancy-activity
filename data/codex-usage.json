@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Australia/Sydney",
+  "updatedAt": "2026-10-29T02:26:01.599Z",
+  "source": {
+    "label": "本机 Codex 会话记录",
+    "includesCachedInput": true,
+    "includesSubagents": true,
+    "accountWide": false
+  },
+  "coverage": {
+    "from": "2026-09-30",
+    "to": "2026-10-29",
+    "firstObservedEvent": "2026-08-30T23:13:32.200Z",
+    "lastObservedEvent": "2026-10-29T02:25:58.384Z",
+    "currentDayPartial": true,
+    "scope": "本机保留的 Codex 活跃与归档会话；含子代理及缓存输入，不代表账号全量、账单或其他 AI 工具。",
+    "method": "累计计数增量；相同累计值忽略；精确事件指纹去重；首条与重置仅计 last_token_usage。",
+    "tokenEvents": 102108,
+    "duplicateEvents": 1,
+    "repeatedCounters": 6419,
+    "counterResets": 36,
+    "initialUnattributedTokens": 0,
+    "historicalInitialUnattributedTokens": 188336847,
+    "lastSnapshotInconsistentEvents": 1115,
+    "inconsistentLastWithRepeatedTotal": 1073,
+    "unresolvedResetEvents": 0,
+    "deltaMismatchEvents": 0,
+    "invalidEvents": 0,
+    "futureEvents": 16,
+    "sourceFiles": 666,
+    "readFiles": 666,
+    "failedFiles": 0,
+    "malformedTokenLines": 0,
+    "invalidTokenEvents": 0,
+    "compressedFiles": 453,
+    "completeWithinRetainedFiles": true
+  },
+  "days": [
+    {
+      "date": "2026-09-30",
+      "input": 0,
+      "cachedInput": 0,
+      "output": 0,
+      "total": 0,
+      "observedEvents": 0,
+      "recorded": false
+    },
+    {
+      "date": "2026-10-01",
+      "input": 0,
+      "cachedInput": 0,
+      "output": 0,
+      "total": 0,
+      "observedEvents": 0,
+      "recorded": false
+    },
+    {
+      "date": "2026-10-02",
+      "input": 0,
+      "cachedInput": 0,
+      "output": 0,
+      "total": 0,
+      "observedEvents": 0,
+      "recorded": false
+    },
+    {
+      "date": "2026-10-03",
+      "input": 0,
+      "cachedInput": 0,
+      "output": 0,
+      "total": 0,
+      "observedEvents": 0,
+      "recorded": false
+    },
+    {
+      "date": "2026-10-04",
+      "input": 0,
+      "cachedInput": 0,
+      "output": 0,
+      "total": 0,
+      "observedEvents": 0,
+      "recorded": false
+    },
+    {
+      "date": "2026-10-05",
+      "input": 41251137,
+      "cachedInput": 38205568,
+      "output": 136968,
+      "total": 41388105,
+      "observedEvents": 349,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-06",
+      "input": 224305472,
+      "cachedInput": 216528128,
+      "output": 511306,
+      "total": 224816778,
+      "observedEvents": 1549,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-07",
+      "input": 319316942,
+      "cachedInput": 309672192,
+      "output": 740934,
+      "total": 320057876,
+      "observedEvents": 2300,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-08",
+      "input": 292497496,
+      "cachedInput": 286395392,
+      "output": 772445,
+      "total": 293269941,
+      "observedEvents": 2119,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-09",
+      "input": 19991221,
+      "cachedInput": 18606592,
+      "output": 89392,
+      "total": 20080613,
+      "observedEvents": 264,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-10",
+      "input": 2318738,
+      "cachedInput": 1746432,
+      "output": 2499,
+      "total": 2321237,
+      "observedEvents": 14,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-11",
+      "input": 4365339,
+      "cachedInput": 3550976,
+      "output": 7281,
+      "total": 4372620,
+      "observedEvents": 27,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-12",
+      "input": 40935716,
+      "cachedInput": 39674624,
+      "output": 91496,
+      "total": 41027212,
+      "observedEvents": 380,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-13",
+      "input": 205743623,
+      "cachedInput": 201073536,
+      "output": 929992,
+      "total": 206673615,
+      "observedEvents": 1858,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-14",
+      "input": 181154714,
+      "cachedInput": 176586240,
+      "output": 694132,
+      "total": 181848846,
+      "observedEvents": 1228,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-15",
+      "input": 111887657,
+      "cachedInput": 106958720,
+      "output": 353975,
+      "total": 112241632,
+      "observedEvents": 890,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-16",
+      "input": 791586124,
+      "cachedInput": 773110272,
+      "output": 2362730,
+      "total": 793948854,
+      "observedEvents": 5623,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-17",
+      "input": 259222760,
+      "cachedInput": 252787840,
+      "output": 523682,
+      "total": 259746442,
+      "observedEvents": 1814,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-18",
+      "input": 68335438,
+      "cachedInput": 64548864,
+      "output": 158789,
+      "total": 68494227,
+      "observedEvents": 437,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-19",
+      "input": 422863999,
+      "cachedInput": 412490240,
+      "output": 1569054,
+      "total": 424433053,
+      "observedEvents": 3205,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-20",
+      "input": 352663203,
+      "cachedInput": 342724992,
+      "output": 1277255,
+      "total": 353940458,
+      "observedEvents": 2292,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-21",
+      "input": 128368562,
+      "cachedInput": 123664128,
+      "output": 563100,
+      "total": 128931662,
+      "observedEvents": 983,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-22",
+      "input": 373356638,
+      "cachedInput": 362819328,
+      "output": 1455292,
+      "total": 374811930,
+      "observedEvents": 2891,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-23",
+      "input": 905261916,
+      "cachedInput": 883568640,
+      "output": 3194694,
+      "total": 908456610,
+      "observedEvents": 6679,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-24",
+      "input": 1333761274,
+      "cachedInput": 1309175808,
+      "output": 3626915,
+      "total": 1337388189,
+      "observedEvents": 8172,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-25",
+      "input": 865920695,
+      "cachedInput": 848814976,
+      "output": 2090791,
+      "total": 868011486,
+      "observedEvents": 5269,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-26",
+      "input": 1095632407,
+      "cachedInput": 1072980864,
+      "output": 3045489,
+      "total": 1098677896,
+      "observedEvents": 6065,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-27",
+      "input": 527182763,
+      "cachedInput": 514988800,
+      "output": 1122430,
+      "total": 528305193,
+      "observedEvents": 2858,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-28",
+      "input": 359453434,
+      "cachedInput": 351719552,
+      "output": 759678,
+      "total": 360213112,
+      "observedEvents": 2052,
+      "recorded": true
+    },
+    {
+      "date": "2026-10-29",
+      "input": 179557544,
+      "cachedInput": 174675072,
+      "output": 461747,
+      "total": 180019291,
+      "observedEvents": 1051,
+      "recorded": true
+    }
+  ]
+}
