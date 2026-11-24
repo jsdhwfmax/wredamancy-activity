@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Australia/Sydney",
-  "updatedAt": "2026-11-22T11:34:19.148Z",
+  "updatedAt": "2026-11-24T01:36:50.140Z",
   "source": {
     "label": "本机 Codex 会话记录",
     "includesCachedInput": true,
@@ -9,52 +9,34 @@
     "accountWide": false
   },
   "coverage": {
-    "from": "2026-10-24",
-    "to": "2026-11-22",
+    "from": "2026-10-26",
+    "to": "2026-11-24",
     "firstObservedEvent": "2026-08-30T23:13:32.200Z",
-    "lastObservedEvent": "2026-11-22T11:34:18.335Z",
+    "lastObservedEvent": "2026-11-24T01:36:46.515Z",
     "currentDayPartial": true,
     "scope": "本机保留的 Codex 活跃与归档会话；含子代理及缓存输入，不代表账号全量、账单或其他 AI 工具。",
     "method": "累计计数增量；相同累计值忽略；精确事件指纹去重；首条与重置仅计 last_token_usage。",
-    "tokenEvents": 127434,
+    "tokenEvents": 127830,
     "duplicateEvents": 1,
-    "repeatedCounters": 6738,
+    "repeatedCounters": 6740,
     "counterResets": 36,
     "initialUnattributedTokens": 0,
     "historicalInitialUnattributedTokens": 188336847,
-    "lastSnapshotInconsistentEvents": 1363,
-    "inconsistentLastWithRepeatedTotal": 1321,
+    "lastSnapshotInconsistentEvents": 1365,
+    "inconsistentLastWithRepeatedTotal": 1323,
     "unresolvedResetEvents": 0,
     "deltaMismatchEvents": 0,
     "invalidEvents": 0,
-    "futureEvents": 46,
-    "sourceFiles": 847,
-    "readFiles": 847,
+    "futureEvents": 30,
+    "sourceFiles": 850,
+    "readFiles": 850,
     "failedFiles": 0,
     "malformedTokenLines": 0,
     "invalidTokenEvents": 0,
-    "compressedFiles": 809,
+    "compressedFiles": 813,
     "completeWithinRetainedFiles": true
   },
   "days": [
-    {
-      "date": "2026-10-24",
-      "input": 1333761274,
-      "cachedInput": 1309175808,
-      "output": 3626915,
-      "total": 1337388189,
-      "observedEvents": 8172,
-      "recorded": true
-    },
-    {
-      "date": "2026-10-25",
-      "input": 865920695,
-      "cachedInput": 848814976,
-      "output": 2090791,
-      "total": 868011486,
-      "observedEvents": 5269,
-      "recorded": true
-    },
     {
       "date": "2026-10-26",
       "input": 1095632407,
@@ -300,11 +282,29 @@
     },
     {
       "date": "2026-11-22",
-      "input": 4629700,
-      "cachedInput": 2836864,
-      "output": 5307,
-      "total": 4635007,
-      "observedEvents": 22,
+      "input": 75396035,
+      "cachedInput": 72471040,
+      "output": 102493,
+      "total": 75498528,
+      "observedEvents": 405,
+      "recorded": true
+    },
+    {
+      "date": "2026-11-23",
+      "input": 0,
+      "cachedInput": 0,
+      "output": 0,
+      "total": 0,
+      "observedEvents": 0,
+      "recorded": false
+    },
+    {
+      "date": "2026-11-24",
+      "input": 4697744,
+      "cachedInput": 3278336,
+      "output": 6447,
+      "total": 4704191,
+      "observedEvents": 28,
       "recorded": true
     }
   ]
